@@ -4,6 +4,11 @@
 # loaded once.
 
 require_relative '../meal_choice.rb' # Code your solution in this file
+def meal_choice(name = "meat")
+  puts "#{name}"
+end
+
+meal_choice("vegan")
 
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
